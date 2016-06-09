@@ -43,7 +43,7 @@ class ViewController: UIViewController, LTMorphingLabelDelegate {
     }
     func runTimedCode() {
         hi = hi + 1
-        if hi - 1 > textArray.count {
+        if hi > textArray.count + 1 {
     
             
         
