@@ -41,6 +41,7 @@ class ViewController: UIViewController, LTMorphingLabelDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+<<<<<<< HEAD
     func runTimedCode() {
         hi = hi + 1
         if hi - 1 > textArray.count {
@@ -58,6 +59,9 @@ class ViewController: UIViewController, LTMorphingLabelDelegate {
 
     /*
     // MARK: - Navigation
+=======
+//hellooooo i feel dead
+>>>>>>> 8654a25536c0b25827a1579f3b0b6110524aefcc
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
