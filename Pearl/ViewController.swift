@@ -7,19 +7,63 @@
 //
 
 import UIKit
+var hi = 0
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, LTMorphingLabelDelegate {
+    private var i = -1
+    var gameTimer: NSTimer!
 
+     var textArray = [
+        "What is the pearl?",
+        "A pearl", "A pearl is not just", "A rockk like it looks like", "and feels like.",
+        "A pearl", "is an enemy"    ]
+    private var text: String {
+        i = i >= textArray.count - 1 ? 0 : i + 1
+        return textArray[i]
+    }
+    
+    @IBOutlet weak var Label: LTMorphingLabel!
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        gameTimer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
+
+        Label.delegate = self
+
+        Label.text = text
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func runTimedCode() {
+        hi = hi + 1
+        if hi - 1 > textArray.count {
+    
+            
+        
+        }else{
+        Label.morphingEffect =  .Evaporate
+        Label.text = textArray[hi]
+        
+        
+        }
+    }
+    
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
-

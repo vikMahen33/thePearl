@@ -1,0 +1,6 @@
+framework module Pods_PearlTests {
+  umbrella header "Pods-PearlTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

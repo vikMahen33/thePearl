@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0B2CB5A840918E7352F80F /* Pods_PearlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECD75FC2CC31274DA12103C /* Pods_PearlUITests.framework */; };
+		7FE65E55DFCCB5F9CA6865A7 /* Pods_Pearl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEB155CC32B7DF7269F2820 /* Pods_Pearl.framework */; };
+		90D71B5E0F8DB88A3F019D33 /* Pods_PearlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113D387F398190AC06EFEBA5 /* Pods_PearlTests.framework */; };
 		AC06B56C1D09128800D70030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B56B1D09128800D70030 /* AppDelegate.swift */; };
-		AC06B56E1D09128800D70030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B56D1D09128800D70030 /* ViewController.swift */; };
 		AC06B5711D09128800D70030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC06B56F1D09128800D70030 /* Main.storyboard */; };
 		AC06B5741D09128800D70030 /* Pearl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5721D09128800D70030 /* Pearl.xcdatamodeld */; };
 		AC06B5761D09128800D70030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC06B5751D09128800D70030 /* Assets.xcassets */; };
 		AC06B5791D09128800D70030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC06B5771D09128800D70030 /* LaunchScreen.storyboard */; };
 		AC06B5841D09128800D70030 /* PearlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5831D09128800D70030 /* PearlTests.swift */; };
 		AC06B58F1D09128800D70030 /* PearlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B58E1D09128800D70030 /* PearlUITests.swift */; };
+		AC06B59D1D091B0900D70030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B59C1D091B0900D70030 /* ViewController.swift */; };
+		AC06B5C71D091BF900D70030 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5B91D091BF900D70030 /* LTCharacterLimbo.swift */; };
+		AC06B5C81D091BF900D70030 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5BA1D091BF900D70030 /* LTEasing.swift */; };
+		AC06B5C91D091BF900D70030 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5BB1D091BF900D70030 /* LTEmitterView.swift */; };
+		AC06B5CA1D091BF900D70030 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5BC1D091BF900D70030 /* LTMorphingEffect.swift */; };
+		AC06B5CC1D091BF900D70030 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5BF1D091BF900D70030 /* LTMorphingLabel.swift */; };
+		AC06B5CD1D091BF900D70030 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C01D091BF900D70030 /* LTMorphingLabel+Anvil.swift */; };
+		AC06B5CE1D091BF900D70030 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C11D091BF900D70030 /* LTMorphingLabel+Burn.swift */; };
+		AC06B5CF1D091BF900D70030 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C21D091BF900D70030 /* LTMorphingLabel+Evaporate.swift */; };
+		AC06B5D01D091BF900D70030 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C31D091BF900D70030 /* LTMorphingLabel+Fall.swift */; };
+		AC06B5D11D091BF900D70030 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C41D091BF900D70030 /* LTMorphingLabel+Pixelate.swift */; };
+		AC06B5D21D091BF900D70030 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C51D091BF900D70030 /* LTMorphingLabel+Sparkle.swift */; };
+		AC06B5D31D091BF900D70030 /* NSString+LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C61D091BF900D70030 /* NSString+LTMorphingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		087B1FD9468FE99804A8A28E /* Pods-PearlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PearlUITests/Pods-PearlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		113D387F398190AC06EFEBA5 /* Pods_PearlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PearlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669018A754BE15DB0BBFE187 /* Pods-Pearl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pearl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pearl/Pods-Pearl.release.xcconfig"; sourceTree = "<group>"; };
+		6ECD75FC2CC31274DA12103C /* Pods_PearlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PearlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		877A8B732AB4700580A73258 /* Pods-PearlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PearlUITests/Pods-PearlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A2834FCED1286F606B43E6F /* Pods-PearlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PearlTests/Pods-PearlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC06B5681D09128800D70030 /* Pearl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pearl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC06B56B1D09128800D70030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC06B56D1D09128800D70030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC06B5701D09128800D70030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC06B5731D09128800D70030 /* Pearl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pearl.xcdatamodel; sourceTree = "<group>"; };
 		AC06B5751D09128800D70030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +69,23 @@
 		AC06B58A1D09128800D70030 /* PearlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PearlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC06B58E1D09128800D70030 /* PearlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlUITests.swift; sourceTree = "<group>"; };
 		AC06B5901D09128800D70030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC06B59C1D091B0900D70030 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC06B5B91D091BF900D70030 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = ../../../.Trash/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		AC06B5BA1D091BF900D70030 /* LTEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = ../../../.Trash/LTEasing.swift; sourceTree = "<group>"; };
+		AC06B5BB1D091BF900D70030 /* LTEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = ../../../.Trash/LTEmitterView.swift; sourceTree = "<group>"; };
+		AC06B5BC1D091BF900D70030 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = ../../../.Trash/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		AC06B5BE1D091BF900D70030 /* LTMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = ../../../.Trash/LTMorphingLabel.h; sourceTree = "<group>"; };
+		AC06B5BF1D091BF900D70030 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = ../../../.Trash/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		AC06B5C01D091BF900D70030 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "../../../.Trash/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		AC06B5C11D091BF900D70030 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "../../../.Trash/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		AC06B5C21D091BF900D70030 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "../../../.Trash/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		AC06B5C31D091BF900D70030 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "../../../.Trash/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		AC06B5C41D091BF900D70030 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "../../../.Trash/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		AC06B5C51D091BF900D70030 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "../../../.Trash/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		AC06B5C61D091BF900D70030 /* NSString+LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+LTMorphingLabel.swift"; path = "../../../.Trash/NSString+LTMorphingLabel.swift"; sourceTree = "<group>"; };
+		BCEB155CC32B7DF7269F2820 /* Pods_Pearl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pearl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE20878ACA02298A1FF22391 /* Pods-Pearl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pearl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pearl/Pods-Pearl.debug.xcconfig"; sourceTree = "<group>"; };
+		FD75FE42FB798B6232996A76 /* Pods-PearlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PearlTests/Pods-PearlTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE65E55DFCCB5F9CA6865A7 /* Pods_Pearl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D71B5E0F8DB88A3F019D33 /* Pods_PearlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0B2CB5A840918E7352F80F /* Pods_PearlUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +123,8 @@
 				AC06B5821D09128800D70030 /* PearlTests */,
 				AC06B58D1D09128800D70030 /* PearlUITests */,
 				AC06B5691D09128800D70030 /* Products */,
+				FDCE55FA8BD39F01DB0EBBB1 /* Pods */,
+				DDE6214E19B03E35F79CF8BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +142,21 @@
 			isa = PBXGroup;
 			children = (
 				AC06B56B1D09128800D70030 /* AppDelegate.swift */,
-				AC06B56D1D09128800D70030 /* ViewController.swift */,
+				AC06B5B91D091BF900D70030 /* LTCharacterLimbo.swift */,
+				AC06B5BA1D091BF900D70030 /* LTEasing.swift */,
+				AC06B5BB1D091BF900D70030 /* LTEmitterView.swift */,
+				AC06B5BC1D091BF900D70030 /* LTMorphingEffect.swift */,
+				AC06B5BE1D091BF900D70030 /* LTMorphingLabel.h */,
+				AC06B5BF1D091BF900D70030 /* LTMorphingLabel.swift */,
+				AC06B5C01D091BF900D70030 /* LTMorphingLabel+Anvil.swift */,
+				AC06B5C11D091BF900D70030 /* LTMorphingLabel+Burn.swift */,
+				AC06B5C21D091BF900D70030 /* LTMorphingLabel+Evaporate.swift */,
+				AC06B5C31D091BF900D70030 /* LTMorphingLabel+Fall.swift */,
+				AC06B5C41D091BF900D70030 /* LTMorphingLabel+Pixelate.swift */,
+				AC06B5C51D091BF900D70030 /* LTMorphingLabel+Sparkle.swift */,
+				AC06B5C61D091BF900D70030 /* NSString+LTMorphingLabel.swift */,
 				AC06B56F1D09128800D70030 /* Main.storyboard */,
+				AC06B59C1D091B0900D70030 /* ViewController.swift */,
 				AC06B5751D09128800D70030 /* Assets.xcassets */,
 				AC06B5771D09128800D70030 /* LaunchScreen.storyboard */,
 				AC06B57A1D09128800D70030 /* Info.plist */,
@@ -128,6 +183,29 @@
 			path = PearlUITests;
 			sourceTree = "<group>";
 		};
+		DDE6214E19B03E35F79CF8BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB155CC32B7DF7269F2820 /* Pods_Pearl.framework */,
+				113D387F398190AC06EFEBA5 /* Pods_PearlTests.framework */,
+				6ECD75FC2CC31274DA12103C /* Pods_PearlUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCE55FA8BD39F01DB0EBBB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE20878ACA02298A1FF22391 /* Pods-Pearl.debug.xcconfig */,
+				669018A754BE15DB0BBFE187 /* Pods-Pearl.release.xcconfig */,
+				9A2834FCED1286F606B43E6F /* Pods-PearlTests.debug.xcconfig */,
+				FD75FE42FB798B6232996A76 /* Pods-PearlTests.release.xcconfig */,
+				087B1FD9468FE99804A8A28E /* Pods-PearlUITests.debug.xcconfig */,
+				877A8B732AB4700580A73258 /* Pods-PearlUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC06B5931D09128800D70030 /* Build configuration list for PBXNativeTarget "Pearl" */;
 			buildPhases = (
+				0865500A8DA98C23CEC05C4E /* 📦 Check Pods Manifest.lock */,
 				AC06B5641D09128800D70030 /* Sources */,
 				AC06B5651D09128800D70030 /* Frameworks */,
 				AC06B5661D09128800D70030 /* Resources */,
+				2DDD11644FFC69BA1C8C598F /* 📦 Embed Pods Frameworks */,
+				FF25E254A9956E47D9E4286F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC06B5961D09128800D70030 /* Build configuration list for PBXNativeTarget "PearlTests" */;
 			buildPhases = (
+				75B10B13087A7E9812BEA42D /* 📦 Check Pods Manifest.lock */,
 				AC06B57B1D09128800D70030 /* Sources */,
 				AC06B57C1D09128800D70030 /* Frameworks */,
 				AC06B57D1D09128800D70030 /* Resources */,
+				DC41D056FE4DC89FD7594D9B /* 📦 Embed Pods Frameworks */,
+				4F9DD3A9C31A7149B736E01D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC06B5991D09128800D70030 /* Build configuration list for PBXNativeTarget "PearlUITests" */;
 			buildPhases = (
+				167B5F3DC1D6EDA641EA0B67 /* 📦 Check Pods Manifest.lock */,
 				AC06B5861D09128800D70030 /* Sources */,
 				AC06B5871D09128800D70030 /* Frameworks */,
 				AC06B5881D09128800D70030 /* Resources */,
+				A34C13FE8D42E7974926145E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,14 +341,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0865500A8DA98C23CEC05C4E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		167B5F3DC1D6EDA641EA0B67 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DDD11644FFC69BA1C8C598F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pearl/Pods-Pearl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F9DD3A9C31A7149B736E01D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PearlTests/Pods-PearlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B10B13087A7E9812BEA42D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A34C13FE8D42E7974926145E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PearlUITests/Pods-PearlUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC41D056FE4DC89FD7594D9B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PearlTests/Pods-PearlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF25E254A9956E47D9E4286F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pearl/Pods-Pearl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC06B5641D09128800D70030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC06B5CA1D091BF900D70030 /* LTMorphingEffect.swift in Sources */,
+				AC06B59D1D091B0900D70030 /* ViewController.swift in Sources */,
+				AC06B5C81D091BF900D70030 /* LTEasing.swift in Sources */,
+				AC06B5D11D091BF900D70030 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				AC06B5D31D091BF900D70030 /* NSString+LTMorphingLabel.swift in Sources */,
+				AC06B5C71D091BF900D70030 /* LTCharacterLimbo.swift in Sources */,
+				AC06B5CC1D091BF900D70030 /* LTMorphingLabel.swift in Sources */,
+				AC06B5CE1D091BF900D70030 /* LTMorphingLabel+Burn.swift in Sources */,
 				AC06B5741D09128800D70030 /* Pearl.xcdatamodeld in Sources */,
-				AC06B56E1D09128800D70030 /* ViewController.swift in Sources */,
+				AC06B5D01D091BF900D70030 /* LTMorphingLabel+Fall.swift in Sources */,
 				AC06B56C1D09128800D70030 /* AppDelegate.swift in Sources */,
+				AC06B5C91D091BF900D70030 /* LTEmitterView.swift in Sources */,
+				AC06B5CD1D091BF900D70030 /* LTMorphingLabel+Anvil.swift in Sources */,
+				AC06B5CF1D091BF900D70030 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				AC06B5D21D091BF900D70030 /* LTMorphingLabel+Sparkle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +623,7 @@
 		};
 		AC06B5941D09128800D70030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE20878ACA02298A1FF22391 /* Pods-Pearl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -414,6 +636,7 @@
 		};
 		AC06B5951D09128800D70030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669018A754BE15DB0BBFE187 /* Pods-Pearl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -426,6 +649,7 @@
 		};
 		AC06B5971D09128800D70030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2834FCED1286F606B43E6F /* Pods-PearlTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PearlTests/Info.plist;
@@ -438,6 +662,7 @@
 		};
 		AC06B5981D09128800D70030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD75FE42FB798B6232996A76 /* Pods-PearlTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PearlTests/Info.plist;
@@ -450,6 +675,7 @@
 		};
 		AC06B59A1D09128800D70030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087B1FD9468FE99804A8A28E /* Pods-PearlUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PearlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -461,6 +687,7 @@
 		};
 		AC06B59B1D09128800D70030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877A8B732AB4700580A73258 /* Pods-PearlUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PearlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -489,6 +716,7 @@
 				AC06B5951D09128800D70030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC06B5961D09128800D70030 /* Build configuration list for PBXNativeTarget "PearlTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +725,7 @@
 				AC06B5981D09128800D70030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC06B5991D09128800D70030 /* Build configuration list for PBXNativeTarget "PearlUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +734,7 @@
 				AC06B59B1D09128800D70030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
