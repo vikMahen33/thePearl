@@ -41,7 +41,6 @@ class ViewController: UIViewController, LTMorphingLabelDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-<<<<<<< HEAD
     func runTimedCode() {
         hi = hi + 1
         if hi - 1 > textArray.count {
