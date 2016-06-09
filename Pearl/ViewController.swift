@@ -7,33 +7,50 @@
 //
 
 import UIKit
-var hi = 0
+var pageWidth = CGFloat()
+
 
 class ViewController: UIViewController, LTMorphingLabelDelegate {
-    private var i = -1
-    var gameTimer: NSTimer!
-
-     var textArray = [
-        "What is the pearl?",
-        "A pearl", "A pearl is not just", "A rockk like it looks like", "and feels like.",
-        "A pearl", "is an enemy"    ]
-    private var text: String {
-        i = i >= textArray.count - 1 ? 0 : i + 1
-        return textArray[i]
-    }
-    
+   
+    @IBOutlet weak var scrollView: UIScrollView!
+  
     @IBOutlet weak var Label: LTMorphingLabel!
+    private var i = -1
+
     
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        gameTimer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
+     
 
-        Label.delegate = self
-
-        Label.text = text
-
+        var V1 : ViewController1 = ViewController1 (nibName: "ViewController1", bundle: nil)
+        self.addChildViewController(V1)
+        self.scrollView.addSubview(V1.view)
+        V1.didMoveToParentViewController(self)
+        
+        var V2 : ViewController2 = ViewController2 (nibName: "ViewController2", bundle: nil)
+        self.addChildViewController(V2)
+        self.scrollView.addSubview(V2.view)
+        V2.didMoveToParentViewController(self)
+        
+        var V2Frame : CGRect = V2.view.frame
+        V2Frame.origin.x = self.view.frame.width
+        V2.view.frame = V2Frame
+        
+        
+        var V3 : ViewController3 = ViewController3 (nibName: "ViewController3", bundle: nil)
+        self.addChildViewController(V3)
+        self.scrollView.addSubview(V3.view)
+        V3.didMoveToParentViewController(self)
+        
+        var V3Frame : CGRect = V3.view.frame
+        V3Frame.origin.x = self.view.frame.width * 2
+        V3.view.frame = V3Frame
+        
+        self.scrollView.contentSize = CGSizeMake(self.view.frame.width * 3, self.view.frame.height )
+        pageWidth = CGRectGetWidth(scrollView.frame)
+   
         // Do any additional setup after loading the view.
     }
 
@@ -41,20 +58,8 @@ class ViewController: UIViewController, LTMorphingLabelDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func runTimedCode() {
-        hi = hi + 1
-        if hi > textArray.count + 1 {
-    
-            
-        
-        }else{
-        Label.morphingEffect =  .Evaporate
-        Label.text = textArray[hi]
-        
-        
-        }
-    }
-    
+       
+
 
     /*
     // MARK: - Navigation

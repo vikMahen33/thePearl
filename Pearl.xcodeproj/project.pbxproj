@@ -30,6 +30,12 @@
 		AC06B5D11D091BF900D70030 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C41D091BF900D70030 /* LTMorphingLabel+Pixelate.swift */; };
 		AC06B5D21D091BF900D70030 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C51D091BF900D70030 /* LTMorphingLabel+Sparkle.swift */; };
 		AC06B5D31D091BF900D70030 /* NSString+LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06B5C61D091BF900D70030 /* NSString+LTMorphingLabel.swift */; };
+		AC3154191D0A15DE006DB0BE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3154171D0A15DE006DB0BE /* ViewController2.swift */; };
+		AC31541A1D0A15DE006DB0BE /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3154181D0A15DE006DB0BE /* ViewController2.xib */; };
+		AC31541D1D0A1603006DB0BE /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31541B1D0A1603006DB0BE /* ViewController1.swift */; };
+		AC31541E1D0A1603006DB0BE /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC31541C1D0A1603006DB0BE /* ViewController1.xib */; };
+		AC3154211D0A1617006DB0BE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31541F1D0A1617006DB0BE /* ViewController3.swift */; };
+		AC3154221D0A1617006DB0BE /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3154201D0A1617006DB0BE /* ViewController3.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +89,12 @@
 		AC06B5C41D091BF900D70030 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "../../../.Trash/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
 		AC06B5C51D091BF900D70030 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "../../../.Trash/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
 		AC06B5C61D091BF900D70030 /* NSString+LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+LTMorphingLabel.swift"; path = "../../../.Trash/NSString+LTMorphingLabel.swift"; sourceTree = "<group>"; };
+		AC3154171D0A15DE006DB0BE /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		AC3154181D0A15DE006DB0BE /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		AC31541B1D0A1603006DB0BE /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		AC31541C1D0A1603006DB0BE /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		AC31541F1D0A1617006DB0BE /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		AC3154201D0A1617006DB0BE /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
 		BCEB155CC32B7DF7269F2820 /* Pods_Pearl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pearl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE20878ACA02298A1FF22391 /* Pods-Pearl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pearl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pearl/Pods-Pearl.debug.xcconfig"; sourceTree = "<group>"; };
 		FD75FE42FB798B6232996A76 /* Pods-PearlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PearlTests/Pods-PearlTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +168,9 @@
 				AC06B5C51D091BF900D70030 /* LTMorphingLabel+Sparkle.swift */,
 				AC06B5C61D091BF900D70030 /* NSString+LTMorphingLabel.swift */,
 				AC06B56F1D09128800D70030 /* Main.storyboard */,
+				AC3154251D0A17FE006DB0BE /* ViewController2 */,
+				AC3154231D0A17C9006DB0BE /* ViewController1 */,
+				AC3154241D0A17D5006DB0BE /* ViewController3 */,
 				AC06B59C1D091B0900D70030 /* ViewController.swift */,
 				AC06B5751D09128800D70030 /* Assets.xcassets */,
 				AC06B5771D09128800D70030 /* LaunchScreen.storyboard */,
@@ -181,6 +196,33 @@
 				AC06B5901D09128800D70030 /* Info.plist */,
 			);
 			path = PearlUITests;
+			sourceTree = "<group>";
+		};
+		AC3154231D0A17C9006DB0BE /* ViewController1 */ = {
+			isa = PBXGroup;
+			children = (
+				AC31541B1D0A1603006DB0BE /* ViewController1.swift */,
+				AC31541C1D0A1603006DB0BE /* ViewController1.xib */,
+			);
+			name = ViewController1;
+			sourceTree = "<group>";
+		};
+		AC3154241D0A17D5006DB0BE /* ViewController3 */ = {
+			isa = PBXGroup;
+			children = (
+				AC31541F1D0A1617006DB0BE /* ViewController3.swift */,
+				AC3154201D0A1617006DB0BE /* ViewController3.xib */,
+			);
+			name = ViewController3;
+			sourceTree = "<group>";
+		};
+		AC3154251D0A17FE006DB0BE /* ViewController2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC3154181D0A15DE006DB0BE /* ViewController2.xib */,
+				AC3154171D0A15DE006DB0BE /* ViewController2.swift */,
+			);
+			name = ViewController2;
 			sourceTree = "<group>";
 		};
 		DDE6214E19B03E35F79CF8BA /* Frameworks */ = {
@@ -319,7 +361,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3154221D0A1617006DB0BE /* ViewController3.xib in Resources */,
 				AC06B5791D09128800D70030 /* LaunchScreen.storyboard in Resources */,
+				AC31541E1D0A1603006DB0BE /* ViewController1.xib in Resources */,
+				AC31541A1D0A15DE006DB0BE /* ViewController2.xib in Resources */,
 				AC06B5761D09128800D70030 /* Assets.xcassets in Resources */,
 				AC06B5711D09128800D70030 /* Main.storyboard in Resources */,
 			);
@@ -470,9 +515,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC06B5CA1D091BF900D70030 /* LTMorphingEffect.swift in Sources */,
+				AC3154191D0A15DE006DB0BE /* ViewController2.swift in Sources */,
+				AC3154211D0A1617006DB0BE /* ViewController3.swift in Sources */,
 				AC06B59D1D091B0900D70030 /* ViewController.swift in Sources */,
 				AC06B5C81D091BF900D70030 /* LTEasing.swift in Sources */,
 				AC06B5D11D091BF900D70030 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				AC31541D1D0A1603006DB0BE /* ViewController1.swift in Sources */,
 				AC06B5D31D091BF900D70030 /* NSString+LTMorphingLabel.swift in Sources */,
 				AC06B5C71D091BF900D70030 /* LTCharacterLimbo.swift in Sources */,
 				AC06B5CC1D091BF900D70030 /* LTMorphingLabel.swift in Sources */,

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController1" customModule="Pearl" customModuleProvider="target">
+            <connections>
+                <outlet property="Label" destination="RRh-7a-QWp" id="hDb-eM-rHR"/>
+                <outlet property="Segment" destination="RsC-5e-Jpn" id="VbH-47-Fjd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRh-7a-QWp" customClass="LTMorphingLabel" customModule="Pearl" customModuleProvider="target">
+                    <rect key="frame" x="17" y="233" width="570" height="339"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="339" id="RWs-de-RJ0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DamascusLight" family="Damascus" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZGR-qb-b72">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="600" id="ev6-kS-dvd"/>
+                        <constraint firstAttribute="height" constant="70" id="hNg-BT-1Ii"/>
+                    </constraints>
+                    <items/>
+                </toolbar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Pearl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90z-BM-Mtd">
+                    <rect key="frame" x="239" y="24" width="122" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="122" id="4J4-l5-5la"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DamascusLight" family="Damascus" pointSize="27"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="RsC-5e-Jpn">
+                    <rect key="frame" x="0.0" y="572" width="600" height="29"/>
+                    <segments>
+                        <segment title="Jump to Songs"/>
+                        <segment title="Jump to Themes"/>
+                        <segment title="Jump to Characters"/>
+                    </segments>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZGR-qb-b72" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5Dg-95-Gqq"/>
+                <constraint firstItem="RRh-7a-QWp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DSf-k5-Tbw"/>
+                <constraint firstItem="ZGR-qb-b72" firstAttribute="centerX" secondItem="90z-BM-Mtd" secondAttribute="centerX" id="EJy-J7-bxw"/>
+                <constraint firstItem="RsC-5e-Jpn" firstAttribute="trailing" secondItem="ZGR-qb-b72" secondAttribute="trailing" id="EwX-3h-8Yv"/>
+                <constraint firstItem="RsC-5e-Jpn" firstAttribute="leading" secondItem="ZGR-qb-b72" secondAttribute="leading" id="HB5-r5-Wch"/>
+                <constraint firstAttribute="trailing" secondItem="RRh-7a-QWp" secondAttribute="trailing" constant="13" id="TIQ-gj-JXb"/>
+                <constraint firstItem="ZGR-qb-b72" firstAttribute="bottom" secondItem="90z-BM-Mtd" secondAttribute="bottom" id="iSp-hk-OPe"/>
+                <constraint firstItem="90z-BM-Mtd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="ip2-Vy-Bg0"/>
+                <constraint firstItem="RRh-7a-QWp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ixa-hc-GZE"/>
+                <constraint firstItem="ZGR-qb-b72" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jNU-qa-UBS"/>
+                <constraint firstItem="ZGR-qb-b72" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jgJ-zW-7lj"/>
+                <constraint firstItem="RRh-7a-QWp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="17" id="kUw-hO-6nZ"/>
+                <constraint firstAttribute="bottom" secondItem="RRh-7a-QWp" secondAttribute="bottom" id="lmF-xC-VyZ"/>
+                <constraint firstAttribute="bottom" secondItem="RsC-5e-Jpn" secondAttribute="bottom" id="o5L-gc-WzS"/>
+                <constraint firstItem="90z-BM-Mtd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vbZ-T2-odU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
